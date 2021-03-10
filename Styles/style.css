@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin-left: 350px;
+    margin-right: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    height: 200px;
+    overflow: hidden;
+    background-color: grey;
+  }
+  
+  .topnav h1 {
+      text-align: center;
+      margin: 50px;
+      font-size: 80px; 
+  }
+
+  
+  /* Style the content */
+  .content {
+    background-color: #ddd;
+    padding: 10px;
+    height: 569px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Style the footer h1*/
+  .footer h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 80px; 
+  }
