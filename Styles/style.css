@@ -29,10 +29,14 @@
     padding: 10px;
     height: 569px; /* Should be removed. Only for demonstration */
   }
-  
+
+  .footer {
+    background-color: gray;
+    height: 200px;
+  }
+
   /* Style the footer h1*/
   .footer h1 {
     text-align: center;
-    margin: 50px;
     font-size: 80px; 
   }
