@@ -1,14 +1,11 @@
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: soleto;
   }
   
   body {
     margin-left: 350px;
     margin-right: 350px;
-    font-family: soleto, sans-serif;
-    font-style: normal;
-    font-weight: 400;
     background-color: #dd0890;
   }
   
@@ -23,6 +20,7 @@
       text-align: center;
       margin: 50px;
       font-size: 80px; 
+      font-weight: bold;
       
   }
 
@@ -40,3 +38,12 @@
     margin: 50px;
     font-size: 80px; 
   }
+  @import url("https://p.typekit.net/p.css?s=1&k=fuh4rvs&ht=tk&f=23748&a=57231231&app=typekit&e=css");
+
+@font-face {
+font-family:"soleto";
+src:url("https://use.typekit.net/af/3e6e78/00000000000000007735a492/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/3e6e78/00000000000000007735a492/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/3e6e78/00000000000000007735a492/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+.tk-soleto { font-family: "soleto",sans-serif; }
