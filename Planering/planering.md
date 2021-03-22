@@ -15,3 +15,8 @@
 
 .Back-End
 1. Gör en databas som kopplas till skolans server som kan lagra information med tids-stämpel
+2. 
+
+.färgschema
+https://coolors.co/dd0890-4b0082-0de1ec-200c9c-3bd9a8-046571-f0f0f0-222222 
+
