@@ -1,6 +1,5 @@
 const express = require('express')
 const databaseModule = require('./databaseModule')
-const ThingModel = require('./ThingModel')
 const app = express()
 const port = 3000
 

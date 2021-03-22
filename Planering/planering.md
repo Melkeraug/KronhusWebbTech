@@ -6,10 +6,12 @@
 
 .Front-end
 1. Göra en startsida där man ska kunna lägga in följande: Matsedel för veckan, nödvändig information för elever, bilder samt dagens datum och vecka.
+2. Gör sidan användarvänlig för mobiltelefoner
+3. En matsedel som ser attraktiv ut
+
+1. En sida för att redigera det som visas på "visnings-sidan"
 2. Login kryptering som lärare kan logga in på med admin rettigheter för att ändra ovanstående information som ska visas på skärmarna
-3. Gör sidan användarvänlig för mobiltelefoner
-4. En matsedel som ser attraktiv ut
+
 
 .Back-End
 1. Gör en databas som kopplas till skolans server som kan lagra information med tids-stämpel
-2. 
