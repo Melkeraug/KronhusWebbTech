@@ -1,16 +1,24 @@
-const express = require('express')
-const databaseModule = require('./databaseModule')
-const app = express()
-const port = 3000
+const http = require('http')
+const fs = require('fs')
+const port = 3030
 
-app.use(express.static(__dirname + '\\staticFiles\\'))
-app.use(express.json())
-app.use(express.urlencoded())
-
-app.post('/index.html', function (req, res) {
-    
-
-    res.sendStatus(418)
+const server = http.createServer(function(req, res) {
+    res.writeHead(200, { 'Content-Type': 'text/html' })
+    fs.readFile('./index.html', function(error, data) {
+        if (error) {
+          res.writeHead(404)
+          res.write('Error: File Not Found') 
+        } else {
+          res.write(data)
+        }
+        res.end()
+    })
 })
 
-app.listen(port, () => console.log(`Example app listening on port port!`))
+server.listen(port, function(error) {
+    if (error) {
+        console.log('Something went wrong', error)
+    } else {
+        console.log('Server is listening on port ' + port)
+    }
+})
