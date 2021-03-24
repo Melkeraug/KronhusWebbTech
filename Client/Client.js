@@ -7,8 +7,8 @@ app.use(express.static(__dirname + '\\staticFiles\\'))
 app.use(express.json())
 app.use(express.urlencoded())
 
-app.post('/test', function (req, res) {
-    ThingModel.saveThing(req.body.kanelbulle)
+app.post('/index.html', function (req, res) {
+    
 
     res.sendStatus(418)
 })
